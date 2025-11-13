@@ -1,0 +1,12 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+      string nombre = "Edward";
+      int edad = 22;
+      Console.WriteLine(string.Format("Nombre: {0}, edad {1}", nombre, edad));
+      Console.ReadKey();
+    }
+}
