@@ -1,2 +1,1 @@
-# Ejercicio1
-nombre y edad
+ejercicios en clase 1.0
