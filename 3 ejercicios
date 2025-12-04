@@ -1,0 +1,35 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Introduce tu nombre: ");
+        string nombre = Console.ReadLine();
+        Console.WriteLine("Introduce tu edad: ");
+        int edad = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Introduce tu email: ");
+        string email = Console.ReadLine();
+        Console.WriteLine("Introduce tu direccion: ");
+        string direccion = Console.ReadLine();
+
+
+        int longitudDireccion = direccion.Length;
+        string nombreMayus = nombre.ToUpper();
+        string emailMinus = email.ToLower();
+
+
+        Console.WriteLine($"Su nombre es: {nombre}");
+        Console.WriteLine($"su edad es: {edad}");
+        Console.WriteLine($"su email es: {email}");
+        Console.WriteLine($"su direccion es: {direccion}");
+
+
+        Console.WriteLine("\n--- Variables de procesamiento ---");
+        Console.WriteLine($"Longitud de la dirección: {longitudDireccion}");
+        Console.WriteLine($"Nombre en mayúsculas: {nombreMayus}");
+        Console.WriteLine($"Email en minúsculas: {emailMinus}");
+
+        Console.ReadKey();
+    }
+}
