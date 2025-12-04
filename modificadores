@@ -1,0 +1,38 @@
+namespace ConsoleApp1
+{
+
+    // 1
+    class car
+    {
+        public string model = "Mustang";
+    }
+
+    //2
+    class person
+    {
+        private string name;
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+    }
+
+    internal class Program
+    {
+
+
+        public static void Main(string[] args)
+        {
+            // 1
+            car myObj = new car();
+            Console.WriteLine(myObj.model);
+
+            //2
+            person myObjeto = new person();
+            myObjeto.Name = "lian";
+            Console.WriteLine(myObjeto.Name);
+        }
+
+    }
+}
