@@ -1,0 +1,15 @@
+using System;
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        double parte1 = Math.Pow(2 + 4, 2);
+        double parte2 = Math.Pow(4 * 2, 3);
+        double resultado = parte1 / parte2;
+
+        Console.WriteLine("Resultado de [(2+4)^2] / [(4*2)^3] = " + resultado);
+
+        double round = Math.Round(resultado);
+        Console.WriteLine("Redondeandolo es " + round);
+    }
+}
